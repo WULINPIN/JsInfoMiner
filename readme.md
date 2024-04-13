@@ -23,9 +23,22 @@ python JsInfoExtract.py "js文件根目录"
 
 第三步：
 在HAE的数据表盘中查看提取到的敏感信息
-![](D:\公众号经营\本地js文件信息泄露探测-JsInfoMiner\1.png)
+
+![1](https://github.com/WULINPIN/JsInfoMiner/assets/30523752/98c18e50-03fd-414b-8e06-7cda46881c9c)
 
 ## 案例
 
 案例一：
+用户名密码泄露
 
+![2](https://github.com/WULINPIN/JsInfoMiner/assets/30523752/f4c04a01-fb3d-47f1-adbd-9d300e32f96c)
+案例二：
+地图key泄露
+
+![3](https://github.com/WULINPIN/JsInfoMiner/assets/30523752/172febff-efb9-4595-b473-ed6020c6b528)
+案例三：
+js中接口收集（可以直接fuzz，也可以查看相关上下文参数）
+
+![5](https://github.com/WULINPIN/JsInfoMiner/assets/30523752/2c6ff939-1047-4d23-becf-7d976311a92c)
+
+还有许多其他案例，就不一一列举出来了
