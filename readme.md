@@ -25,13 +25,14 @@ python JsInfoExtract.py "js文件根目录"
 
 第三步：
 在HAE的数据表盘中查看提取到的敏感信息
-<center>
+
 ![1](https://github.com/WULINPIN/JsInfoMiner/assets/30523752/98c18e50-03fd-414b-8e06-7cda46881c9c)
-</center>
+
 ## 案例
 
 案例一：
 用户名密码泄露
+
 ![2](https://github.com/WULINPIN/JsInfoMiner/assets/30523752/38a7a3e0-a224-4fc4-9e11-0124f765ea13)
 
 
