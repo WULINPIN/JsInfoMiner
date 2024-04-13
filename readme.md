@@ -1,5 +1,7 @@
 # JsInfoMiner
 
+![logo](https://github.com/WULINPIN/JsInfoMiner/assets/30523752/51f6a4e5-9934-4e47-bbcb-d33c679932fd)
+
 此工具的主要目的是通过脚本配合类似HAE的burpsuite插件提取js中的敏感信息。
 想必大家都知道，HAE或者其他的同类工具只能对通过burpsuite的流量中的敏感信息提取；那么如果在小程序的测试中，解包后想提取源码js文件中的敏感信息基本上都是手动查看；还有包括app解包后的js文件、js.map还原后的源码文件等等；即便写了加载HAE规则的脚本，也没法做到点击就能查看源文件以及查看js文件的上下文，而这个工具的出现恰好解决了这个痛点问题。
 
