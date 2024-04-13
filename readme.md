@@ -1,6 +1,6 @@
 # JsInfoMiner
 
-![logo](https://github.com/WULINPIN/JsInfoMiner/assets/30523752/51f6a4e5-9934-4e47-bbcb-d33c679932fd)
+![logo](https://github.com/WULINPIN/JsInfoMiner/assets/30523752/9ab5f9a3-0037-4d5e-afc7-d12c3aece8b4)
 
 此工具的主要目的是通过脚本配合类似HAE的burpsuite插件提取js中的敏感信息。
 想必大家都知道，HAE或者其他的同类工具只能对通过burpsuite的流量中的敏感信息提取；那么如果在小程序的测试中，解包后想提取源码js文件中的敏感信息基本上都是手动查看；还有包括app解包后的js文件、js.map还原后的源码文件等等；即便写了加载HAE规则的脚本，也没法做到点击就能查看源文件以及查看js文件的上下文，而这个工具的出现恰好解决了这个痛点问题。
@@ -32,15 +32,7 @@ python JsInfoExtract.py "js文件根目录"
 
 案例一：
 用户名密码泄露
+![2](https://github.com/WULINPIN/JsInfoMiner/assets/30523752/38a7a3e0-a224-4fc4-9e11-0124f765ea13)
 
-![2](https://github.com/WULINPIN/JsInfoMiner/assets/30523752/f4c04a01-fb3d-47f1-adbd-9d300e32f96c)
-案例二：
-地图key泄露
-
-![3](https://github.com/WULINPIN/JsInfoMiner/assets/30523752/172febff-efb9-4595-b473-ed6020c6b528)
-案例三：
-js中接口收集（可以直接fuzz，也可以查看相关上下文参数）
-
-![5](https://github.com/WULINPIN/JsInfoMiner/assets/30523752/2c6ff939-1047-4d23-becf-7d976311a92c)
 
 还有许多其他案例，就不一一列举出来了
