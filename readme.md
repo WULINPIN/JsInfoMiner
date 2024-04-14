@@ -1,7 +1,7 @@
 # JsInfoMiner
 
 <div align=center>
-<img src="static/logo.png" width=20% height=%20 />
+<img src="static/logo.png" width=70% height=70% />
 </div>
 
 此工具的主要目的是通过脚本配合类似HAE的burpsuite插件提取本地js文件中的敏感信息。
