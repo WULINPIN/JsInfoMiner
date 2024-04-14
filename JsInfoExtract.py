@@ -42,7 +42,7 @@ def start_server(path):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage:python JsInfoExtract.py 'js文件根目录'")
+        print("Usage:python JsInfoExtract.py \"js文件根目录\"")
         sys.exit()
     path = sys.argv[1]
     client = Process(target=client_request, args=(path,))
